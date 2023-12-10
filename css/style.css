@@ -192,6 +192,9 @@ section{
     text-align: center;
     background-color: var(--bg-color);
     color: var(--text-color);
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    gap: 5px;
 }
 
 .testumonials, h1{
@@ -226,7 +229,7 @@ section{
     .pricing-sec{
         display: grid;
         grid-template-columns: auto;
-        grid-gap: 2rem;
+        grid-gap: 1.5rem;
     }
 }
 
